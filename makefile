@@ -9,7 +9,7 @@ sysconfdir=/etc
 
 wondershaper:
 	exit;
-  
+
 
 wondershaper.service: wondershaper.service.in
 	sed 's|@sbindir@|$(sbindir)|' wondershaper.service.in > wondershaper.service
